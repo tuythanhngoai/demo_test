@@ -1,0 +1,76 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Oct 14, 2014, 3:06:37 PM
+    Author     : Mr tuy
+*/
+
+/*------ COMMON ------*/
+*{margin: 0;padding: 0}
+:after{clear: both}
+body{}
+.fl{float: left;}
+.fr{float: right;}
+.clr{clear: both;}
+
+/*----- HEADER -----*/
+#header{
+    min-height: 100px;
+    box-shadow: 0px 3px 8px 3px #A8A8A8;
+}
+.nav_admin{
+    width: 100%;
+    min-height: 100px;
+}
+.nav_admin ul{
+    list-style: none;
+    width: 300px;
+    float: right;
+    padding-top: 30px;
+}
+.nav_admin li{
+    display: inline-block;
+}
+.nav_admin li a{
+    padding: 5px;
+}
+.nav_admin li:hover a{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.nav_admin li.active a{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*----- CONTENT -----*/
+#content{
+    min-height: 300px;
+}
+/*----- FOOTER -----*/
+#footer {
+    text-align: center;
+}
+ul.pagination{
+    list-style: none;
+}
+ul.pagination li{
+    display: inline-block;
+}
+ul.pagination li a{
+    padding: 5px;
+    text-decoration: none;
+}
+ul.pagination li.prev a{}
+ul.pagination li.next a{}
+ul.pagination li:hover a{
+    color: red;
+    font-weight: bold;
+}
+ul.pagination li.active a{
+    color: red;
+}

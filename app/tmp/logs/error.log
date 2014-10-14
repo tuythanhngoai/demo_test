@@ -1,0 +1,564 @@
+2014-10-14 14:42:28 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /admin
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 14:42:38 Error: [MissingControllerException] Controller class AdminIndexController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminIndexController',
+  'plugin' => NULL,
+)
+Request URL: /admin/admin_index
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 14:43:34 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /admin/post/index
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 14:46:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/admin.css
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 14:46:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/admin.css
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 14:55:56 Error: [InvalidArgumentException] The eventKey variable is required
+Request URL: /admin/settings/index
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Model.php(787): CakeEventManager->attach(NULL)
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Model.php(2999): Model->getEventManager()
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Model.php(2914): Model->buildQuery('all', Array)
+#3 E:\TuyNguyen\projects\demo_test\app\Model\Setting.php(16): Model->find('all')
+#4 E:\TuyNguyen\projects\demo_test\app\Controller\SettingsController.php(49): Setting->listAll()
+#5 [internal function]: SettingsController->admin_index()
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SettingsController), Array)
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#9 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#11 {main}
+2014-10-14 14:55:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/admin.css
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 14:57:01 Error: [InvalidArgumentException] The eventKey variable is required
+Request URL: /admin/settings/index
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Model.php(787): CakeEventManager->attach(NULL)
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Model.php(2999): Model->getEventManager()
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Model.php(2914): Model->buildQuery('all', Array)
+#3 E:\TuyNguyen\projects\demo_test\app\Model\Setting.php(16): Model->find('all')
+#4 E:\TuyNguyen\projects\demo_test\app\Controller\SettingsController.php(49): Setting->listAll()
+#5 [internal function]: SettingsController->admin_index()
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SettingsController), Array)
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#9 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#11 {main}
+2014-10-14 14:57:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/admin.css
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 15:01:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/admin.css
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 15:02:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/admin.css
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 15:05:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /css/admin.css
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 15:23:10 Error: [MissingHelperException] Helper class controllerHelper could not be found.
+Exception Attributes: array (
+  'class' => 'controllerHelper',
+  'plugin' => false,
+)
+Request URL: /admin/settings/add
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('controller')
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(837): HelperCollection->__isset('controller')
+#2 E:\TuyNguyen\projects\demo_test\app\View\Layouts\admin.ctp(20): View->__get('controller')
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(948): include('E:\TuyNguyen\pr...')
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(910): View->_evaluate('E:\TuyNguyen\pr...', Array)
+#5 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(542): View->_render('E:\TuyNguyen\pr...')
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(479): View->renderLayout('', 'admin')
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#10 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#12 {main}
+2014-10-14 15:25:29 Error: [MissingHelperException] Helper class controllerHelper could not be found.
+Exception Attributes: array (
+  'class' => 'controllerHelper',
+  'plugin' => false,
+)
+Request URL: /admin/settings/add
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('controller')
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(837): HelperCollection->__isset('controller')
+#2 E:\TuyNguyen\projects\demo_test\app\View\Layouts\admin.ctp(20): View->__get('controller')
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(948): include('E:\TuyNguyen\pr...')
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(910): View->_evaluate('E:\TuyNguyen\pr...', Array)
+#5 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(542): View->_render('E:\TuyNguyen\pr...')
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(479): View->renderLayout('', 'admin')
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#10 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#12 {main}
+2014-10-14 15:26:13 Error: [MissingHelperException] Helper class controllerHelper could not be found.
+Exception Attributes: array (
+  'class' => 'controllerHelper',
+  'plugin' => false,
+)
+Request URL: /admin/settings/add
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('controller')
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(837): HelperCollection->__isset('controller')
+#2 E:\TuyNguyen\projects\demo_test\app\View\Layouts\admin.ctp(20): View->__get('controller')
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(948): include('E:\TuyNguyen\pr...')
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(910): View->_evaluate('E:\TuyNguyen\pr...', Array)
+#5 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(542): View->_render('E:\TuyNguyen\pr...')
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(479): View->renderLayout('', 'admin')
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#10 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#12 {main}
+2014-10-14 15:26:15 Error: [MissingHelperException] Helper class controllerHelper could not be found.
+Exception Attributes: array (
+  'class' => 'controllerHelper',
+  'plugin' => false,
+)
+Request URL: /admin/settings/add
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('controller')
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(837): HelperCollection->__isset('controller')
+#2 E:\TuyNguyen\projects\demo_test\app\View\Layouts\admin.ctp(20): View->__get('controller')
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(948): include('E:\TuyNguyen\pr...')
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(910): View->_evaluate('E:\TuyNguyen\pr...', Array)
+#5 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(542): View->_render('E:\TuyNguyen\pr...')
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(479): View->renderLayout('', 'admin')
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#10 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#12 {main}
+2014-10-14 15:26:20 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'listAll' at line 1
+Request URL: /admin/settings
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('listAll', Array)
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('listAll', Array, Array)
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('listAll', Array, Array)
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Model.php(808): DboSource->query('listAll', Array, Object(Setting))
+#5 E:\TuyNguyen\projects\demo_test\app\Controller\SettingsController.php(52): Model->__call('listAll', Array)
+#6 E:\TuyNguyen\projects\demo_test\app\Controller\SettingsController.php(52): Setting->listAll()
+#7 [internal function]: SettingsController->admin_index()
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SettingsController), Array)
+#9 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#11 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#13 {main}
+2014-10-14 15:26:27 Error: [MissingControllerException] Controller class SettingController could not be found.
+Exception Attributes: array (
+  'class' => 'SettingController',
+  'plugin' => NULL,
+)
+Request URL: /admin/setting
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 15:26:43 Error: [MissingControllerException] Controller class Cai-datController could not be found.
+Exception Attributes: array (
+  'class' => 'Cai-datController',
+  'plugin' => NULL,
+)
+Request URL: /admin/cai-dat
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 15:27:01 Error: [MissingControllerException] Controller class Cai-datController could not be found.
+Exception Attributes: array (
+  'class' => 'Cai-datController',
+  'plugin' => NULL,
+)
+Request URL: /admin/cai-dat
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 15:27:38 Error: [MissingControllerException] Controller class Cai-datController could not be found.
+Exception Attributes: array (
+  'class' => 'Cai-datController',
+  'plugin' => NULL,
+)
+Request URL: /admin/cai-dat
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#2 {main}
+2014-10-14 15:27:44 Error: [MissingHelperException] Helper class controllerHelper could not be found.
+Exception Attributes: array (
+  'class' => 'controllerHelper',
+  'plugin' => false,
+)
+Request URL: /admin/settings/add
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('controller')
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(837): HelperCollection->__isset('controller')
+#2 E:\TuyNguyen\projects\demo_test\app\View\Layouts\admin.ctp(20): View->__get('controller')
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(948): include('E:\TuyNguyen\pr...')
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(910): View->_evaluate('E:\TuyNguyen\pr...', Array)
+#5 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(542): View->_render('E:\TuyNguyen\pr...')
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(479): View->renderLayout('', 'admin')
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#10 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#12 {main}
+2014-10-14 15:27:49 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'listAll' at line 1
+Request URL: /admin/settings/index
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('listAll', Array)
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('listAll', Array, Array)
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(609): DboSource->fetchAll('listAll', Array, Array)
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Model.php(808): DboSource->query('listAll', Array, Object(Setting))
+#5 E:\TuyNguyen\projects\demo_test\app\Controller\SettingsController.php(52): Model->__call('listAll', Array)
+#6 E:\TuyNguyen\projects\demo_test\app\Controller\SettingsController.php(52): Setting->listAll()
+#7 [internal function]: SettingsController->admin_index()
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SettingsController), Array)
+#9 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#11 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#13 {main}
+2014-10-14 15:28:05 Error: [MissingHelperException] Helper class controllerHelper could not be found.
+Exception Attributes: array (
+  'class' => 'controllerHelper',
+  'plugin' => false,
+)
+Request URL: /admin/settings/index
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('controller')
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(837): HelperCollection->__isset('controller')
+#2 E:\TuyNguyen\projects\demo_test\app\View\Layouts\admin.ctp(20): View->__get('controller')
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(948): include('E:\TuyNguyen\pr...')
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(910): View->_evaluate('E:\TuyNguyen\pr...', Array)
+#5 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(542): View->_render('E:\TuyNguyen\pr...')
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(479): View->renderLayout('', 'admin')
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#10 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#12 {main}
+2014-10-14 15:29:22 Error: [MissingHelperException] Helper class controllerHelper could not be found.
+Exception Attributes: array (
+  'class' => 'controllerHelper',
+  'plugin' => false,
+)
+Request URL: /admin/settings/index
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('controller')
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(837): HelperCollection->__isset('controller')
+#2 E:\TuyNguyen\projects\demo_test\app\View\Layouts\admin.ctp(20): View->__get('controller')
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(948): include('E:\TuyNguyen\pr...')
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(910): View->_evaluate('E:\TuyNguyen\pr...', Array)
+#5 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(542): View->_render('E:\TuyNguyen\pr...')
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(479): View->renderLayout('', 'admin')
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#10 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#12 {main}
+2014-10-14 15:30:28 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /admin/settings/add
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(886): HelperCollection->load('Javascript', Array)
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(SettingsController))
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#5 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#6 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#8 {main}
+2014-10-14 15:30:32 Error: [MissingHelperException] Helper class JavascriptHelper could not be found.
+Exception Attributes: array (
+  'class' => 'JavascriptHelper',
+  'plugin' => false,
+)
+Request URL: /admin/settings/index
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(886): HelperCollection->load('Javascript', Array)
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(354): View->loadHelpers()
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(1241): View->__construct(Object(SettingsController))
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(940): Controller->_getViewObject()
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#5 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#6 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#8 {main}
+2014-10-14 15:31:52 Error: [MissingHelperException] Helper class controllerHelper could not be found.
+Exception Attributes: array (
+  'class' => 'controllerHelper',
+  'plugin' => false,
+)
+Request URL: /admin/settings/index
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('controller')
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(837): HelperCollection->__isset('controller')
+#2 E:\TuyNguyen\projects\demo_test\app\View\Layouts\admin.ctp(20): View->__get('controller')
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(948): include('E:\TuyNguyen\pr...')
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(910): View->_evaluate('E:\TuyNguyen\pr...', Array)
+#5 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(542): View->_render('E:\TuyNguyen\pr...')
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(479): View->renderLayout('', 'admin')
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#10 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#12 {main}
+2014-10-14 15:32:25 Error: [MissingHelperException] Helper class controllerHelper could not be found.
+Exception Attributes: array (
+  'class' => 'controllerHelper',
+  'plugin' => false,
+)
+Request URL: /admin/settings/index
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('controller')
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(837): HelperCollection->__isset('controller')
+#2 E:\TuyNguyen\projects\demo_test\app\View\Layouts\admin.ctp(20): View->__get('controller')
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(948): include('E:\TuyNguyen\pr...')
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(910): View->_evaluate('E:\TuyNguyen\pr...', Array)
+#5 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(542): View->_render('E:\TuyNguyen\pr...')
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(479): View->renderLayout('', 'admin')
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#9 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#10 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#12 {main}
+2014-10-14 15:33:06 Error: [MissingActionException] Action SettingsController::admin_admin() could not be found.
+Exception Attributes: array (
+  'controller' => 'SettingsController',
+  'action' => 'admin_admin',
+)
+Request URL: /admin/settings/admin
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#2 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#4 {main}
+2014-10-14 15:33:42 Error: [MissingHelperException] Helper class controllerHelper could not be found.
+Exception Attributes: array (
+  'class' => 'controllerHelper',
+  'plugin' => false,
+)
+Request URL: /admin/settings/add
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\View\HelperCollection.php(63): HelperCollection->load('controller')
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(837): HelperCollection->__isset('controller')
+#2 E:\TuyNguyen\projects\demo_test\app\View\Settings\admin_add.ctp(3): View->__get('controller')
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(948): include('E:\TuyNguyen\pr...')
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(910): View->_evaluate('E:\TuyNguyen\pr...', Array)
+#5 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(471): View->_render('E:\TuyNguyen\pr...')
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#9 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#11 {main}
+2014-10-14 15:36:59 Error: [MissingActionException] Action SettingsController::admin_edit() could not be found.
+Exception Attributes: array (
+  'controller' => 'SettingsController',
+  'action' => 'admin_edit',
+)
+Request URL: /admin/settings/edit
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#2 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#4 {main}
+2014-10-14 15:37:40 Error: [MissingViewException] View file "E:\TuyNguyen\projects\demo_test\app\View\Settings\admin_delete.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'E:\\TuyNguyen\\projects\\demo_test\\app\\View\\Settings\\admin_delete.ctp',
+)
+Request URL: /admin/settings/delete
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\View\View.php(468): View->_getViewFileName(NULL)
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(954): View->render(NULL, NULL)
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(198): Controller->render()
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#4 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#6 {main}
+2014-10-14 16:13:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Setting.create' in 'order clause'
+Request URL: /admin/settings
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('SELECT `Setting...', Array)
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(666): DboSource->execute('SELECT `Setting...', Array, Array)
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(1106): DboSource->fetchAll('SELECT `Setting...', false)
+#4 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Model.php(2947): DboSource->read(Object(Setting), Array)
+#5 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Model.php(2919): Model->_readDataSource('all', Array)
+#6 E:\TuyNguyen\projects\demo_test\app\Controller\SettingsController.php(14): Model->find('all', Array)
+#7 [internal function]: SettingsController->admin_index()
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SettingsController), Array)
+#9 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#11 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#13 {main}
+2014-10-14 16:15:38 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'name'
+Request URL: /admin/settings/add
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `de...', Array)
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `de...')
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Setting), Array, Array)
+#4 E:\TuyNguyen\projects\demo_test\app\Controller\SettingsController.php(26): Model->save(Array)
+#5 [internal function]: SettingsController->admin_add()
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SettingsController), Array)
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#9 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#11 {main}
+2014-10-14 16:20:52 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'name'
+Request URL: /admin/settings/add
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `de...', Array)
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `de...')
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Setting), Array, Array)
+#4 E:\TuyNguyen\projects\demo_test\app\Controller\SettingsController.php(26): Model->save(Array)
+#5 [internal function]: SettingsController->admin_add()
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SettingsController), Array)
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#9 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#11 {main}
+2014-10-14 16:21:04 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '' for key 'name'
+Request URL: /admin/settings/add
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(458): PDOStatement->execute(Array)
+#1 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(424): DboSource->_execute('INSERT INTO `de...', Array)
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Datasource\DboSource.php(1012): DboSource->execute('INSERT INTO `de...')
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\Model\Model.php(1854): DboSource->create(Object(Setting), Array, Array)
+#4 E:\TuyNguyen\projects\demo_test\app\Controller\SettingsController.php(26): Model->save(Array)
+#5 [internal function]: SettingsController->admin_add()
+#6 E:\TuyNguyen\projects\demo_test\lib\Cake\Controller\Controller.php(490): ReflectionMethod->invokeArgs(Object(SettingsController), Array)
+#7 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 E:\TuyNguyen\projects\demo_test\lib\Cake\Routing\Dispatcher.php(165): Dispatcher->_invoke(Object(SettingsController), Object(CakeRequest))
+#9 E:\TuyNguyen\projects\demo_test\app\webroot\index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 E:\TuyNguyen\projects\demo_test\index.php(41): require('E:\TuyNguyen\pr...')
+#11 {main}
+2014-10-14 16:50:17 Error: Fatal Error (1): Call to a member function paginate() on a non-object in [E:\TuyNguyen\projects\demo_test\app\Controller\SettingsController.php, line 15]
+2014-10-14 16:50:17 Error: [FatalErrorException] Call to a member function paginate() on a non-object
+Request URL: /admin/settings
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\TuyNguyen\pr...', 15)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\TuyNguyen\pr...', 15, Array)
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\TuyNguyen\pr...', 15, Array)
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-14 16:51:04 Error: Fatal Error (1): Call to a member function paginate() on a non-object in [E:\TuyNguyen\projects\demo_test\app\Controller\SettingsController.php, line 17]
+2014-10-14 16:51:04 Error: [FatalErrorException] Call to a member function paginate() on a non-object
+Request URL: /admin/settings
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\TuyNguyen\pr...', 17)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\TuyNguyen\pr...', 17, Array)
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\TuyNguyen\pr...', 17, Array)
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-10-14 16:51:57 Error: Fatal Error (1): Call to a member function paginate() on a non-object in [E:\TuyNguyen\projects\demo_test\app\Controller\SettingsController.php, line 16]
+2014-10-14 16:51:57 Error: [FatalErrorException] Call to a member function paginate() on a non-object
+Request URL: /admin/settings
+Stack Trace:
+#0 E:\TuyNguyen\projects\demo_test\lib\Cake\Error\ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'E:\TuyNguyen\pr...', 16)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'E:\TuyNguyen\pr...', 16, Array)
+#2 E:\TuyNguyen\projects\demo_test\lib\Cake\Core\App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'E:\TuyNguyen\pr...', 16, Array)
+#3 E:\TuyNguyen\projects\demo_test\lib\Cake\Core\App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
